@@ -1,0 +1,11 @@
+/* app.component.css */
+:host {
+  padding: 20px;
+  background-image: url('/assets/images/pppp.jpg');  /* Path to your image */
+  background-size: cover;          /* Make the image cover the entire container */
+    /* Center the image */
+  background-repeat: no-repeat;    /* Prevent repetition */
+  display: block;
+  min-height: 100vh;        /* Minimum height of the container to cover the viewport */
+}
+

@@ -1,0 +1,58 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.fa-brands{
+  color: aliceblue;
+  padding: 20px;
+}
+
+.fa-instagram:hover{
+  border-radius: 70px;
+  border: 2px solid rgb(231, 7, 213);
+  background-color: rgb(231, 7, 213);
+  padding: 30px;
+  transition: 0.2s;
+}
+
+.fa-envelope:hover{
+  border-radius: 70px;
+  border: 2px solid rgb(0, 106, 206);
+  background-color: rgb(0, 106, 206);
+  padding: 30px;
+  transition: 0.2s;
+}
+.fa-briefcase:hover{
+  border-radius: 70px;
+  border: 2px solid rgb(45, 21, 226);
+  background-color: rgb(85, 7, 231);
+  padding: 30px;
+  transition: 0.2s;
+}
+.fa-twitter:hover{
+  border-radius: 70px;
+  border: 2px solid rgb(0, 204, 255);
+  background-color: rgb(0, 204, 255);
+  padding: 30px;
+  transition: 0.2s;
+}
+
+
+
+.fa-linkedin:hover{
+  border-radius: 70px;
+  border: 2px solid rgb(45, 155, 199);
+  background-color: rgb(45, 155, 199);
+  padding: 30px;
+  transition: 0.2s;
+}
+
+.fa-github:hover{
+  border-radius: 70px;
+  border: 2px solid rgb(0, 10, 53);
+  background-color: rgb(0, 10, 53);
+  padding: 30px;
+  transition: 0.2s;
+}

@@ -1,0 +1,62 @@
+
+  .container-fluid {
+    padding: 20px;
+    background-image: url('/assets/images/images.jpeg');  /* Path to your image */
+    background-size: cover;          /* Scale the image to cover the container */
+    background-position: center;     /* Center the image */
+    background-repeat: no-repeat;    /* Prevent repetition */
+    height: 70vh;                   /* Set the height of the container (optional) */
+}
+
+
+.profile {
+  width: 300px;
+  height: 300px;
+  grid-row: 2/3;
+  margin: 0 auto;
+  position: relative;
+  clip-path: inset(0 round 0 0 25%);
+}
+
+.profile .profile-bg {
+  height: 97%;
+  width: 67%;
+  bottom: 25%;
+  position: absolute;
+  background-color: #f496e3;
+  clip-path: inset(0 round 62% 0% 44%);
+  left: 17px;
+  top: 5px;
+}
+
+.profile img {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+}
+
+
+.card {
+  background-color: transparent;
+  color: aliceblue;
+  margin-top: 45px;
+  box-shadow: 0px 0px 20px 5px #2013ff;
+}
+
+    .card{
+
+        box-shadow: 0px 0px 7px 1px #11c796 !important;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+        #dynamicTitle {
+            animation: colorChange 2s infinite;
+        }
+
+
+
