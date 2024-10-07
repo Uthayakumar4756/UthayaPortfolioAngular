@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <!-- Display Home Components only on 'home' route -->
+  <div>
+    <app-header></app-header>
+    <app-banner></app-banner>
+    <app-summary data-aos="fade-zoom-in" data-aos-duration="2000" responsive></app-summary>
+    <div data-aos="fade-right" data-aos-duration="2000" responsive>
+      <app-skillset></app-skillset>
+    </div>
+    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+      <app-workexperience></app-workexperience>
+    </div>
+    <div data-aos="fade-down-left" data-aos-duration="2000">
+      <app-project></app-project>
+    </div>
+    <div data-aos="flip-down" data-aos-duration="2000">
+      <app-links></app-links>
+    </div>
+  </div>
+
+  <!-- Display About Component only on 'about' route -->
+  <!-- Router outlet for other routes -->
+  <!-- <router-outlet></router-outlet> -->
+</div>

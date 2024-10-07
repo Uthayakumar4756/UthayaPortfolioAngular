@@ -1,20 +1,20 @@
 import { Routes } from '@angular/router';
-import { BannerComponent } from './pages/banner/banner.component';
-import { ResumeComponent } from './pages/resume/resume.component';
-import { SkillsetComponent } from './pages/skillset/skillset.component';
+import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './pages/home/home.component';
+
 
 export const routes: Routes = [
   {
-    path:"",
-    component:BannerComponent
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'  // Redirect to 'home' by default
   },
   {
-    path:"resume",
-    component: ResumeComponent
+    path: 'home',
+    component: HomeComponent // Home component (if you have one)
   },
   {
-    path: "home",
-    component: SkillsetComponent
-  },
-
+    path: 'about',
+    component: AboutComponent // About component
+  }
 ];

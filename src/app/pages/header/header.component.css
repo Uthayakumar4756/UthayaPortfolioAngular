@@ -2,12 +2,11 @@
   padding: 20px;
   background-color:rgba(207, 65, 167, 0.633);
   margin-bottom: -7px;
-    margin-top: -17px;
+   margin-top: -17px;
 }
 
 nav {
   margin: -3px auto 0;
-
   position: relative;
   width: 100%;
   height: 50px;
@@ -51,30 +50,30 @@ a:nth-child(4) {
 a:nth-child(5) {
   width: 120px;
 }
-nav .start-home, a:nth-child(1):hover~.animation {
+ /* nav .start-home, a:nth-child(1):hover~.animation {
   width: 100px;
   left: 0;
   background-color: #1abc9c;
-}
+} */
 nav .start-about, a:nth-child(2):hover~.animation {
   width: 110px;
   left: 100px;
-  background-color: #e74c3c;
+  background-color: #1abc9c;
 }
 nav .start-blog, a:nth-child(3):hover~.animation {
   width: 100px;
   left: 210px;
-  background-color: #3498db;
+  background-color: #1abc9c;
 }
 nav .start-portefolio, a:nth-child(4):hover~.animation {
   width: 160px;
   left: 310px;
-  background-color: #9b59b6;
+  background-color: #1abc9c;
 }
 nav .start-contact, a:nth-child(5):hover~.animation {
   width: 120px;
   left: 470px;
-  background-color: #e67e22;
+  background-color: #1abc9c;
 }
 
 body {
@@ -104,4 +103,11 @@ p {
 
 span {
     color: #2BD6B4;
+}
+.active{
+  width: 100px;
+  left: 0;
+  border-radius: 10px;
+  transition: all .5s ease 0s;
+  background-color: #1abc9c;
 }

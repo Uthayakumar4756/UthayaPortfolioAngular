@@ -1,27 +1,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cherry+Swash">
 <div class="container-fluid">
-  <!-- <div class="row">
-    <div class="menu-wrap">
-<nav class="menu">
-<!-- Menu Links
-<div class="icon-list">
-<a href="index.html#home"><span>Home</span></a>
-<a href="index.html#about"><span>About</span></a>
-<a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
-<a href="index.html#portfolio"><span>Portfolio</span></a>
-<a href="index.html#blog"><span>Blog</span></a>
-<a href="index.html#contact"><span>Contact</span></a>
-</div>
-</nav>
-</div>
-
-  </div>-->
   <nav>
-    <a [routerLink]="['/home']" routerLinkActive="router-link-active" target="_blank" ><i class="fa fa-fw fa-home"></i> Home</a>
-    <a href="#"><i class="fa fa-fw fa-quote-left"></i> About</a>
-    <a href="#"><i class="fa fa-fw fa-rss"></i> Blog</a>
+    <a routerLink="/home" routerLinkActive="active"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a routerLink="/about" routerLinkActive="active" ><i class="fa fa-fw fa-quote-left"></i> About</a>
+    <a href="#"  routerLinkActive="router-link-active"><i class="fa fa-fw fa-rss"></i> Blog</a>
     <a href="https://uthayakumar4756.github.io/uthaya-bio/MyBio.html"><i class="fa fa-book"></i> Portefolio</a>
-    <a href="#"><i class="fa fa-phone"></i> Contact</a>
+    <a href="#"><i class="fa fa-fw fa-phone"></i> Contact</a>
     <div class="animation start-home"></div>
   </nav>
 </div>
